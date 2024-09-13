@@ -1,0 +1,51 @@
+{
+  "name": "shopping",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite serve",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@cyhnkckali/vue3-color-picker": "^2.0.2",
+    "@kuaitu/core": "workspace:^",
+    "@primevue/themes": "^4.0.5",
+    "@types/uuid": "^10.0.0",
+    "@vueuse/core": "^11.0.3",
+    "axios": "^1.7.7",
+    "dayjs": "^1.11.13",
+    "fabric": "^5.3.0",
+    "lodash-es": "^4.17.21",
+    "number-precision": "^1.6.0",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.0.5",
+    "qs": "^6.13.0",
+    "quill": "^2.0.2",
+    "tailwindcss-primeui": "^0.3.4",
+    "unplugin-auto-import": "^0.18.2",
+    "uuid": "^10.0.0",
+    "vue": "^3.4.37",
+    "vue-i18n": "^9.14.0",
+    "vue-router": "^4.4.3"
+  },
+  "devDependencies": {
+    "@primevue/auto-import-resolver": "^4.0.5",
+    "@types/fabric": "^5.3.9",
+    "@types/lodash-es": "^4.17.12",
+    "@types/qs": "^6.9.15",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.45",
+    "sass": "^1.78.0",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.5.3",
+    "unplugin-vue-components": "^0.27.4",
+    "vite": "^5.4.3",
+    "vue-tsc": "^2.0.29"
+  },
+  "workspaces": [
+    "packages/core"
+  ]
+}
